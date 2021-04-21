@@ -1,0 +1,36 @@
+/// <reference types="react" />
+import { LOCALE_TYPE } from "./utils/locale";
+export interface Style {
+    container?: {};
+    monthContainer?: {};
+    weekContainer?: {};
+    monthNameText?: {};
+    dayNameText?: {};
+    dayText?: {};
+    dayTextColor?: string;
+    holidayColor?: string;
+    todayColor?: string;
+    selectedDayTextColor?: string;
+    selectedDayBackgroundColor?: string;
+    selectedBetweenDayTextColor?: string;
+    selectedBetweenDayBackgroundTextColor?: string;
+}
+interface onChangeParams {
+    startDate: string | null;
+    endDate: string | null;
+}
+interface Props {
+    pastYearRange?: number;
+    futureYearRange?: number;
+    locale?: LOCALE_TYPE;
+    startDate?: string;
+    endDate?: string;
+    onChange: (params: onChangeParams | any) => void;
+    style?: Style;
+    singleSelectMode?: boolean;
+    initialNumToRender?: number;
+    flatListProps?: any;
+}
+export default function Index({ pastYearRange, futureYearRange, initialNumToRender, locale, startDate: prevStartDate, endDate: prevEndDate, onChange, style, singleSelectMode, flatListProps, }: Props): JSX.Element;
+export {};
+//# sourceMappingURL=index.d.ts.map

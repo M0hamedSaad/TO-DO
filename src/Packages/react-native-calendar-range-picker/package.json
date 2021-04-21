@@ -1,0 +1,72 @@
+{
+  "_from": "react-native-calendar-range-picker",
+  "_id": "react-native-calendar-range-picker@1.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-6QcqaQMTork/dzwtu5dqcgK+e73X3I+kXoncimn8Cple91H2U2rggU3YOKGb4TMHCGdGBHad/sFZMbuanJiwsQ==",
+  "_location": "/react-native-calendar-range-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-calendar-range-picker",
+    "name": "react-native-calendar-range-picker",
+    "escapedName": "react-native-calendar-range-picker",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-calendar-range-picker/-/react-native-calendar-range-picker-1.5.0.tgz",
+  "_shasum": "fcb37aa57f40e1b72343cfec578dce84597d801c",
+  "_spec": "react-native-calendar-range-picker",
+  "_where": "F:\\React native Projects\\BookingApp",
+  "author": {
+    "name": "JunHyeok Heo",
+    "email": "huurray@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/huurray/react-native-calendar-range-picker/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "moment": "^2.29.1",
+    "react": "*",
+    "react-native": "*"
+  },
+  "deprecated": false,
+  "description": "A Simple React Native calendar picker.",
+  "devDependencies": {
+    "@types/react": "*",
+    "@types/react-native": "*",
+    "typescript": "4.0.3"
+  },
+  "homepage": "https://github.com/huurray/react-native-calendar-range-picker#readme",
+  "keywords": [
+    "react-native",
+    "react",
+    "calendar",
+    "range",
+    "picker",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "react-native-calendar-range-picker",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huurray/react-native-calendar-range-picker.git"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "types": "dist/index.d.ts",
+  "version": "1.5.0"
+}
